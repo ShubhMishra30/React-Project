@@ -1,6 +1,20 @@
 .todo{
-  padding: 16px;
+  padding: 10px;
+  border: 0.5px solid black;
+  margin: 50px;
+  border-radius: 10px;
+  width: 400px;
+}
+
+button{
+  background-color: lightgray;
   border: 1px solid black;
-  margin: 16px;
+  width: 80px;
   border-radius: 5px;
+  font-weight: bold;
+  height: 30px;
+}
+
+button:hover{
+  background-color: gray;
 }
