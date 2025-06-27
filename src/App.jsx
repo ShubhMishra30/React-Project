@@ -1,5 +1,6 @@
 import Todo from "./Components/Todo.jsx"
 import TodoTitle from "./Components/TodoTitle.jsx"
+import PopUp from "./Components/PopUp.jsx"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Todo task="Earn 20LPA+"
       description="Work hard, learn new skills, and aim for a high salary."
       />
+      <PopUp title="Are you 100% sure?" btn1="Confirm" btn2="Cancel" />
     </>
   )
 }
